@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 1280px; */
+    padding: 0px 20px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+.main-header{
+/* width: 100%; */
+padding-bottom: 10px;
+
+}
+.main-nav{
+background-color: #ddd;
+
+
+}
+.main-nav__items{
+    list-style-type: none;
+    text-align: right;
+    padding: 16px;
+
+}
+.main-nav-item{
+display: inline-block;
+margin: 0 16px;
+/* font-size: 20px; */
+font-weight: bold;
+
+}
+.main-nav-item a{
+    text-decoration: none;
+    color: salmon;
+    padding: 3px 0;
+
+}
+.main-nav-item a:hover{
+    text-decoration: none;
+    background-color: salmon;
+    color: #ddd;
+
+}
+
+/*    ---  container start   ---   */
+.container{
+overflow: hidden;
+padding: 10px 0px;
+}
+.container-list{
+/* min-height: 300vh; */
+}
+.container__item{
+width: 49%;
+float: left;
+padding: 10px 20px;
+
+
+}
+.container__item__title{
+font-size: 1.5em;
+line-height: 1em;
+}
+.title-color{
+color: sandybrown;
+}
+.container__item__details{
+text-align: justify;
+padding: 20px 0px;
+}
+.btn-link{
+text-decoration: none;
+background-color: sandybrown;
+color: #fff;
+padding: 10px 20px;
+border-radius: 10px;
+}
+.container__item__image{
+width: 300px;
+height: 300px;
+
+}
+.
+
+/*   ---   container end  ---   */
+
+
+/*   ---   footer start   ---   */
+.main-footer{
+
+}
+.big-footer{
+background-color: #F8F9FC;
+overflow: hidden;
+padding: 30px;
+
+}
+.big-footer__title{
+text-align: center;
+padding: 20px 0px;
+}
+.big-footer__items{
+
+}
+.big-footer__item{
+ width: 30%;
+min-height: 500px;
+float: left;
+padding: 20px;
+margin: 10px;
+box-shadow: 5px 5px 10px gray;
+border-radius: 10px;
+
+
+}
+.big-footer__item__image{
+
+
+}
+.big-footer__item__image img{
+width: 90%;
+}
+.big-footer__content{
+
+}
+.big-footer__content__title{
+padding: 10px 0px;
+}
+.big-footer__content__details{
+
+}
+
+/*   ---   big-footer end   ---   */
+
+.footer{
+
+}
+
+.footer__contact{
+
+}
+.footer__contact__area{
+background-image: url("../images/footer.png");
+background-repeat: no-repeat;
+/* width: 80%; */
+padding: 20px;
+/* background-size: 3000px 1000px; */
+}
+.footer__contact__title{
+color: #fff;
+width: 50%;
+float: left;
+    padding: 20px;
+}
+.btn-link--contact{
+
+}
+
+.footer-down{
+    text-align: center;
+    padding: 20px 0px;
+}
+.small-footer__title{
+
+}
+.small-footer__email{
+    font-weight: bold;
+    font-size: 2em;
+
+}
+.small-footer__links{
+    padding: 20px 0px;
+    }
+.small-footer__link{
+    padding: 20px;
+width: 20px;
+height: 20px;
+
+}
+
+/*   ---   footer end   ---   */
+
